@@ -52,9 +52,9 @@ g++ -std=c++17 -pthread src/thread_pool.cpp -O2 -o thread_pool
 Open `colab/notebook.ipynb` in Google Colab and run all cells to generate performance graphs.
 
 ## 👨‍💻 Authors
+-Satyam Kumar (RK24PMB39)
 - Mushfiq Alam (RK24PMB40)
 - Indulekha S (RK24PMB41)
-- Satyam Kumar (RK24PMB39)
 
 ## 📝 License
 Educational use only.
