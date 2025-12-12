@@ -41,3 +41,4 @@ Makefile
 stats.csv
 run_log_*.txt
 heavy_run.txt
+!tests/*.png
