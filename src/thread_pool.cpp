@@ -64,6 +64,7 @@ auto ThreadPool::submit(F&& f, Args&&... args) -> std::future<typename std::invo
 }
 
 // Worker thread loop with mutex and condition_variable for synchronization
+// Uses condition_variable for efficient thread wake-up and mutex for thread-safe queue access
 void ThreadPool::workerLoop() {
     while (true) {
         std::function<void()> task;
