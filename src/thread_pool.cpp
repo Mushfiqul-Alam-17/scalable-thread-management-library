@@ -47,6 +47,7 @@ ThreadPool::~ThreadPool() {
     shutdown(true);
 }
 
+// Task submission using packaged_task and futures for result retrieval
 template<typename F, typename... Args>
 auto ThreadPool::submit(F&& f, Args&&... args) -> std::future<typename std::invoke_result_t<F, Args...>> {
     using RetType = typename std::invoke_result_t<F, Args...>;
@@ -62,6 +63,7 @@ auto ThreadPool::submit(F&& f, Args&&... args) -> std::future<typename std::invo
     return res;
 }
 
+// Worker thread loop with mutex and condition_variable for synchronization
 void ThreadPool::workerLoop() {
     while (true) {
         std::function<void()> task;
@@ -96,6 +98,7 @@ void ThreadPool::increaseSize(size_t newSize) {
     }
 }
 
+// Graceful shutdown: waits for tasks to complete before terminating threads
 void ThreadPool::shutdown(bool waitForTasks) {
     {
         std::unique_lock<std::mutex> lock(tasksMutex);
