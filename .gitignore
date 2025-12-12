@@ -35,7 +35,9 @@ Makefile
 *.txt
 !README.md
 
-# Test outputs
+# Test outputs (but allow tests/ directory files)
+!tests/stats.csv
+!tests/run_log.txt
 stats.csv
 run_log_*.txt
 heavy_run.txt

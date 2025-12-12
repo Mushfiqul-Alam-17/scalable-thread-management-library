@@ -1,0 +1,46 @@
+Running ThreadPool: 8 threads, 20000 tasks
+Submitted: 0 | Queue: 1 | Active: 0
+Submitted: 500 | Queue: 245 | Active: 2
+Submitted: 1000 | Queue: 492 | Active: 4
+Submitted: 1500 | Queue: 738 | Active: 6
+Submitted: 2000 | Queue: 985 | Active: 8
+Submitted: 2500 | Queue: 1231 | Active: 8
+Submitted: 3000 | Queue: 1478 | Active: 8
+Submitted: 3500 | Queue: 1724 | Active: 8
+Submitted: 4000 | Queue: 1971 | Active: 8
+Submitted: 4500 | Queue: 2217 | Active: 8
+Submitted: 5000 | Queue: 2464 | Active: 8
+Submitted: 5500 | Queue: 2710 | Active: 8
+Submitted: 6000 | Queue: 2957 | Active: 8
+Submitted: 6500 | Queue: 3203 | Active: 8
+Submitted: 7000 | Queue: 3450 | Active: 8
+Submitted: 7500 | Queue: 3696 | Active: 8
+Submitted: 8000 | Queue: 3943 | Active: 8
+Submitted: 8500 | Queue: 4189 | Active: 8
+Submitted: 9000 | Queue: 4436 | Active: 8
+Submitted: 9500 | Queue: 4682 | Active: 8
+Submitted: 10000 | Queue: 4929 | Active: 8
+Submitted: 10500 | Queue: 5175 | Active: 8
+Submitted: 11000 | Queue: 5422 | Active: 8
+Submitted: 11500 | Queue: 5668 | Active: 8
+Submitted: 12000 | Queue: 5915 | Active: 8
+Submitted: 12500 | Queue: 6161 | Active: 8
+Submitted: 13000 | Queue: 6408 | Active: 8
+Submitted: 13500 | Queue: 6654 | Active: 8
+Submitted: 14000 | Queue: 6901 | Active: 8
+Submitted: 14500 | Queue: 7147 | Active: 8
+Submitted: 15000 | Queue: 7394 | Active: 8
+Submitted: 15500 | Queue: 7640 | Active: 8
+Submitted: 16000 | Queue: 7887 | Active: 8
+Submitted: 16500 | Queue: 8133 | Active: 8
+Submitted: 17000 | Queue: 8380 | Active: 8
+Submitted: 17500 | Queue: 8626 | Active: 8
+Submitted: 18000 | Queue: 8873 | Active: 8
+Submitted: 18500 | Queue: 9119 | Active: 8
+Submitted: 19000 | Queue: 9366 | Active: 8
+Submitted: 19500 | Queue: 9612 | Active: 8
+Completed. Sum = 127499798816
+Total Time = 0.789321 seconds
+Peak Queue Size: 17582 tasks
+Peak Active Threads: 8
+Throughput: 25338 tasks/second
