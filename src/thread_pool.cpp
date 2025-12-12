@@ -100,6 +100,7 @@ void ThreadPool::increaseSize(size_t newSize) {
 }
 
 // Graceful shutdown: waits for tasks to complete before terminating threads
+// Ensures all worker threads are properly joined and resources are cleaned up
 void ThreadPool::shutdown(bool waitForTasks) {
     {
         std::unique_lock<std::mutex> lock(tasksMutex);
