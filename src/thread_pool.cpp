@@ -132,6 +132,9 @@ int main() {
 
     ThreadPool pool(threads);
 
+    // Enhanced logging for better performance monitoring and analysis
+    // Logs submitted task count, queued tasks, and active worker threads
+    // Output file: tests/stats.csv for post-processing and visualization
     std::ofstream log("tests/stats.csv");
     log << "submitted,queued,active\n";
 
